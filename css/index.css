@@ -1,0 +1,1030 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?rrb2a5');
+  src:  url('../fonts/icomoon.eot?rrb2a5#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?rrb2a5') format('truetype'),
+    url('../fonts/icomoon.woff?rrb2a5') format('woff'),
+    url('../fonts/icomoon.svg?rrb2a5#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding:0;
+}
+
+body {
+    font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+    background-color: #f4f4f4;
+}
+
+a:link {
+	text-decoration: none;
+	color: #3c3c3c !important;
+}
+
+a:hover {
+	color: #ff5000;
+}
+
+ul {
+	list-style: none;
+}
+
+
+.w {
+	height: 35px;
+	margin:0  157.8px;
+}
+
+/*头部导航*/
+.header-nav {
+	width: 100%;
+	height: 35px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #eee;
+}
+
+
+/*头部导航栏左边部分*/
+.header-nav-left {
+    float: left;   
+}
+
+
+.nav-left-text {
+	width: 292px;
+	height: 35px;
+}
+
+.redword:link {
+	color: #ff5000 !important;
+}
+
+.taobao-ico1 {
+	font-family: "icomoon";
+	font-size: 8px;
+	color: #9c9c9c;
+	line-height: 35px;
+}
+
+.shopcar,.daohang{
+	font-size: 9px;
+	padding-right: 5px;
+	color: #f40;
+}
+
+.start {
+	font-size: 10px;
+	padding-right: 5px;
+}
+
+.nav-left-text li, .nav-right-text li {
+	float: left;
+	line-height: 35px;
+	padding:0 5px;
+    
+}
+
+/*头部导航栏右边部分*/
+.header-nav-right {
+    float: right;   
+}
+
+
+/*=======================================================
+淘宝banner的顶部，包括logo、搜索框、二维码等
+=========================================================*/
+
+.banner-top {
+	background-color: #fff;
+}
+.banner-top-content {
+	padding-top:48px;
+	height: 97px;
+	background-color: #fff;
+}
+
+.banner-logo {
+	width: 190px;
+	height: 88px;
+	display: inline-block;
+}
+
+.banner-logo-img {
+	width: 142px;
+	height: 60px;
+	margin: 0 auto;
+    background: url(../images/tb_logo.png) no-repeat;
+}
+
+.banner-search {
+	width: 630px;
+	height: 87px;
+	display: inline-block;
+	margin: 0 30px 0 65px;
+	position: relative;
+}
+
+.banner-search-way {
+	height: 67px;
+}
+
+.search-up {
+	padding-left: 20px;
+	width: 630px;
+	height: 22px;
+}
+.search-up ul li {
+	float: left;
+	font-size: 12px;
+	width: 36px;
+	height: 22px;
+	line-height: 22px;
+	cursor: pointer;
+	font-weight: 700;
+	color: #ff5000;
+	text-align: center;
+}
+
+.search-up li:first-child {
+	background-color: #ff5000;
+	color: #fff;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+.search-up li:hover {
+    background-color: #f4f4f4;
+}
+
+.search-input{
+	width: 630px;
+	height: 38px;
+	position: absolute;
+    top: 20px;
+	border: 2px solid #ff5000;
+	border-radius: 25px;
+}
+
+.search-input-text {
+	width: 556px;
+	height: 36px;
+	/*background-color: red;*/
+	position: relative;
+	display: inline-block;
+	float: left;
+}
+
+.search-input-text input {
+	width: 472px;
+	display: inline-block;
+	/*margin: 10 auto;*/
+	position: absolute;
+	left: 8PX; 
+	top: 12PX;
+	border: 0;
+}
+
+.search-input-text .photo {
+	font-family: "icomoon";
+	font-size: 25px;
+	color: #696969;
+	line-height: 36px;
+	position: absolute;
+	right: 20PX;
+	cursor: pointer;
+}
+
+.search-button {
+    width: 80px;
+    height: 40px;	
+    display: inline-block;
+    float: right;
+    top: 0px;
+    right: -2px;
+    position: absolute;
+}
+
+.search-input-button {
+	width: 100%;
+	height: 100%;
+	color: #FFF;
+	font-size: 18px;
+	background-color: #ff5000;
+	font-weight: bold;
+	text-align: center;
+	border: 0;
+	border-bottom-right-radius:20px;
+    border-top-right-radius:20px;
+    cursor: pointer;
+    font-family: "宋体";
+}
+
+.banner-search-type li {
+    float: left;
+    padding:0 4px;
+}
+
+.search-type-last {
+    padding-left: 29px !important;
+}
+
+.taobao-ico2 {
+	font-family: "icomoon";
+	font-size: 13px;
+	color: #ccc;
+}
+
+/*右端二维码部分*/
+
+.banner-node {
+    width: 76px;
+    height: 90px;
+    background-color: #fff;
+    display: inline-block;
+    position: absolute;
+    right: 270px;
+    border: 1px solid #ddd;
+}
+
+.banner-node .node-text {
+    width: 78px;
+    line-height:20px;
+    display: inline-block;
+    color: #ff5000;
+    text-align: center;  
+}
+
+.banner-node img {
+	width: 62px;
+	height:62px;
+	margin-left: 6px;
+	display: block; 
+}
+
+.taobao-ico3 {
+	font-family: "icomoon";
+	font-size: 14px;
+	color: #ddd;
+	border: 1px solid #ddd;
+	width: 14px;
+	height: 14px;
+	text-align: center;
+	line-height: 14px;
+	position: absolute;
+	top: 0;
+	left: -16px;
+}
+
+/*=======================================================
+淘宝banner的中间部分
+=========================================================*/
+
+/*中间导航栏*/
+.taobao-content-nav {
+	width: 100%;
+	height: 30px;
+	background-color: #ff9000;
+}
+
+.nav-content h2 {
+	width: 190px;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: bold;
+	background-color: #ff5000;
+}
+
+.nav-content-text li {
+	float: left;
+	display: inline-block;
+	padding:0 6px;
+	font-weight: bold;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	line-height: 30px;
+}
+
+/*中间内容部分*/
+.taobao-content {
+	width: 100%;
+	height: 632px;
+	background-color: #f4f4f4;
+}
+
+.taobao-content-middle {
+	height: 632px;
+}
+
+.banner-left {
+	width: 900px;
+	height: 632px;
+	display: inline-block;
+}
+
+/*banner左边导航栏*/
+.banner-left01 {
+	width: 190px;
+	height: 522px;
+	float: left;
+	background-color: #fff;
+	position: relative;
+	/*text-align: center;*/
+	border: 1px solid #ff5000;
+	border-top: none;
+}
+
+.banner-left01-list {
+	padding-top: 5px;
+	padding-bottom: 3px;
+}
+
+.banner-left01-list li {
+	width: 165px;
+	height: 32px;
+	line-height: 32px;
+	padding-left: 25px;
+	/*padding-right: 19px;*/
+	position: relative;
+	font-weight: 400;
+	font-size: 14px;
+	color: #666;
+	overflow: hidden;
+}
+
+.banner-left01-list li span {
+	display: inline-block;
+	padding-left: 30px;
+}
+
+.banner-left01-list li:hover {
+	background-color: #ffe4dc;
+	color: #ff5000;
+}
+
+.banner-left01-list li a {
+	line-height: 32px;
+	display: inline-block;
+}
+
+.banner-left01-list li a:hover {
+    text-decoration: underline;
+}
+
+/*banner中间部分的滚动图片*/
+.banner-left02 {
+	width: 520px;
+	height: 512px;
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+	font-size: 14px;
+}
+
+.banner-left02-up-content { 
+    width: 520px;
+    height: 280px;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner-left02-up { /*轮播效果*/
+	position: absolute;
+	width: 3640px;
+	/*transition-duration: 0.3s;
+	transform: translate3d(-1040px,0px,0px);*/
+	left: 0px;
+    opacity: 1;
+    overflow: hidden;
+    backface-visibility: hidden;
+    /*background-color: #fff;*/
+}
+
+.image01 {   /*图片div*/
+	width: 520px;
+	float: left;
+	overflow: hidden;
+	visibility: visible;
+	display: block;
+	height: 280px;
+	cursor: pointer;
+}
+
+.banner-left02-up-content:hover {
+    
+}
+/*箭头 start*/
+
+.img-arrows {
+    z-index: 2;
+    opacity: 0;
+}
+
+.img-arrows a{
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    background-color: rgba(0,0,0,.3);
+    height: 30px;
+    width: 20px;
+    line-height: 30px;
+    color: #fff;
+    position: relative;
+}
+
+.img-arrow.left {
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+}
+
+.img-arrow.right {
+	border-top-left-radius: 15%;
+    border-bottom-left-radius: 15%;
+	right: 0;
+}
+/*箭头 end*/
+
+/*小圆点 start*/
+.img-button-ul {   
+	border-radius: 10px;
+	position: absolute;
+	bottom: 15px;
+	height: 13px;
+	text-align: center;
+	font-size: 0;
+	left: 50%;
+	margin-left: -39px;
+	background-color: rgba(255,255,255,.3);
+	font-size: 0;
+}
+
+.img-button-ul li {   
+    display: inline-block;
+    margin: 3px;
+}
+
+.img-button-ul li a {
+	display: block;
+	padding-top: 8px;
+	width: 8px;
+	height: 0;
+	border-radius: 50%;
+	background-color: #fff;
+}
+/*小圆点 end*/
+
+.banner-left02-down {
+    width: 100%;
+    height: 230px;
+}
+
+.banner-left02-down-hd {
+	width: 520px;
+	height: 32px;
+	position: relative;
+	
+}
+
+.banner-left02-down-tm {
+	width:520px;
+	height: 19px;
+	position: absolute;
+	font-size: 14px;
+	padding-top: 11px;
+	border-bottom:3px solid #ff5000; 
+}
+
+.banner-left02-down-tm span {
+	width: 136px;
+	height: 19px;
+	display: inline-block;
+	background:url(../images/tm.png) no-repeat 2px 0;
+}
+
+.banner-left02-down-tm em {
+	font-size: 12px;
+	font-style:  normal;
+	line-height: 18px;
+	color: #666;
+}
+
+.banner-left02-down-bdimg {
+    width: 520px;
+    height: 201px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.lefts-imgs {
+	width: 520px;
+	height: 201px;
+	overflow: hidden;
+	/*position: absolute;*/
+	left: 0px;
+	opacity: 1;
+	/*transition-duration: 0.3s;
+	transform: translate3d(-1040px,0,0);*/
+	backface-visibility: hidden;
+}
+
+.img-01 {
+	width: 520px;
+	height: 201px;
+	visibility: visible;
+	background-color: #fff;
+}
+
+.img-01 a {
+	width: 251px;
+	height: 190px;
+	display: inline-block;
+	margin: 6px 0 0 6px;
+}
+
+
+/*banner左边的right图片*/
+.banner-left03 {
+	width: 160px;
+	height: 512px;
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 10px;
+	/*float: right;*/
+}
+
+.left03-img-one {
+	width: 160px;
+	height: 280px;
+}
+
+.left03-text h5 {
+	display: inline-block;
+	width: 160px;
+	height: 30px;
+	font-size: 12px;
+	font-weight: 400px;
+	background-color: #f1f1f1;
+	color: #a1a1a1;
+	line-height: 30px;
+}
+
+.left03-img-two {
+	width: 160px;
+	height: 200px;
+}
+
+.banner-left04 {
+	width: 890px;
+	height: 100px;
+	position: relative;
+}
+
+.tb-left04-content {
+	width: 856px;
+	height: 73px;
+	background-color: #ccc;
+	padding:14px 14px 12px 20px;
+	margin-top: 10px;
+	background-color: #fff;  
+}
+
+.tb-left04-content h3 {
+	width: 180px;
+	height: 73px;
+	display: inline-block;
+	float: left;
+	line-height: 73px;
+	background:url(../images/left04-img01.png) 0 14px no-repeat;
+}
+
+.tn-headline p{
+	line-height: 24px;
+	margin-top: 42px;
+	height: 24px;
+	color: #999;
+	font-weight: 400;
+	font-size: 12px;
+    /*display: inline-block;*/
+    position: relative;
+}
+
+.tb-more {
+	position: absolute;
+	top: 0px;
+	right: 16px;
+	font-size: 12px;
+	line-height: 20px;
+	z-index: 1;
+	color: #999;
+	width: 40px;
+	text-align: right;
+
+}
+
+.tb-content {
+	width: 676px;
+	height: 73px;
+	margin-left: 180px;
+	position: relative;
+}
+.tb-content-middle {
+	width: 676px;
+	height: 219px;
+	overflow: hidden;
+	top:0px;
+	/*transition-duration: 0.3s;
+	transform: translate3d(0px,-166px,0px);
+	backface-visibility: hidden;*/
+	opacity: 1; 
+}
+
+.content-01 {
+   height: 73px;
+   position: relative;
+   display: inline-block;
+}
+
+
+.content-01 img {
+   width: 130px;
+   top:0px;
+   float: left;
+   height: 73px;
+}
+
+.content-01 h4 {
+	margin-top: 2px;
+	margin-left: 144px;
+	display:block;
+	color: #333;
+	height: 28px;
+	line-height: 28px;
+	font-weight: 400px;
+	overflow: hidden;
+	font-size: 16px;
+}
+
+.content-01 h4:hover {
+    color: #ff5000;
+}
+
+.content-01 p {
+	display: block;
+	margin-left: 144px;
+	color: #999;
+	height: 36px;
+	overflow: hidden;
+	line-height: 18px;
+	font-size: 14px;
+} 
+
+/***************banner的右边部分*********************/
+.banner-right {
+	width: 290px;
+	height: 622px;
+	margin-top: 10px;
+	background-color: #fff;
+	position: relative;
+	float: right;
+}
+
+.banner-right01 {
+	width: 290px;
+	height: 145px;
+	background:url(../images/right01-bgc.png) 0 0 no-repeat;
+	background-size: 290px 145px;
+}
+
+.member-bd {
+	height: 91px;
+	position: relative;
+}
+
+.member-bd-center {
+	width: 74px;
+	height: 56px;
+	background-color: #fff;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+}
+
+.member-bd-center a {
+    display: inline-block;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    background-clip: padding-box;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+}
+
+..member-bd-center a img {
+	width: 50px;
+	height: 50px;
+	border: 0;
+}
+
+.member-bd span {
+	display: block;
+	height: 17px;
+	line-height: 17px;
+	text-align: center;
+}
+
+.member-bd span strong {
+	font-weight: 400;
+}
+
+.member-bd p {
+	height: 17px;
+	line-height: 17px;
+	text-align: center;
+}
+
+.mem-text {
+	display: inline-block;
+	border-radius: 9px;
+	padding:0 10px 0 20px;
+	background-clip: padding-box;
+	height: 16.8px;
+	position: relative;
+	border: none;
+	background-color: #ffe4db;
+}
+
+.tb-icon {
+	height: 16px;
+	width: 16px;
+	background:url(../images/taobao-ico.png) 0 -572.5px no-repeat;
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	vertical-align: middle;
+}
+
+.men-two {
+	background-position:  0 -528px;
+}
+
+.menber-last {
+	height: 40px;
+	overflow: hidden;
+	margin-top: 2px;
+	padding-left: 15px;
+}
+
+.menber-last-content {
+	height: 25px;
+	margin-top: 8px;
+}
+
+.menber-last-content a {
+	width: 75px;
+	height: 25px;
+	display: inline-block;
+	margin-right: 7px;
+	color: #fff;
+	line-height: 25px;
+	background-image:linear-gradient(to right,#ff5000,#ff6f06); 
+	border-radius: 4px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.banner-right02 {
+	height: 26px;
+	background-color: pink;
+}
+
+.banner-right02 a {
+	position: relative;
+	padding-left: 82px;
+	color: #f40;
+	display: block;
+	height: 26px;
+	line-height: 26px;
+	background-color: #ffe4dd;
+	font-size: 12px;
+}
+
+.banner-right02 span {
+	position: absolute;
+	right: 52px;
+	top: 9px;
+	line-height: 0;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	margin-left: 32px;
+	border-width: 5px 0 5px 7px;
+	border-color: transparent  transparent  transparent #f40 ;
+}
+
+.banner-right03 {
+	height: 105px;
+}
+
+.banner-right03-list {
+    height: 24px;
+    top: 9px;
+    position: relative;
+    margin-top: 4px;
+    overflow: hidden;
+    margin-right: -2px;
+    padding: 0 8px;
+}
+
+.banner-right03-list li {
+	float: left;
+	line-height: 20px;
+	width: 32px;
+	text-align: center;
+	margin: 0 11px;
+}
+
+.banner-right03-list li a , .list-text li a{
+	color: #3c3c3c;
+}
+
+.banner-right03-list li a:hover {
+	color: #ff5000;
+} 
+
+.banner-right03-list li:first-child {
+	font-weight: 700;
+	border-bottom: 2px solid #ff5000;
+}
+
+.list-text ul {
+    margin: 0 12px;
+    height: 50px;
+    overflow: hidden;
+    padding-top: 9px;
+    padding-bottom: 6px;
+}
+
+.list-text li:first-child {
+	width: 260px;
+}
+
+.list-text li:first-child a {
+	color: #ff5000;
+}
+
+.list-text li{
+	float: left;
+    line-height: 25px;
+    height: 25px;
+    width: 130px;
+    overflow: hidden;
+}
+
+.banner-right04 {
+    height: 232px;
+    border-top: 1px solid #f4f4f4;
+}
+
+.list-one {
+	width: 294px;
+	list-style:none;
+	text-align: center;
+}
+
+.list-one .text {
+	width: 71px;
+	height: 75px;
+	float: left;
+	border:1px solid #f4f4f4;
+	margin-left: -1px;
+}
+
+.icon-tb {
+	display: block;
+	width: 24px;
+	height: 24px;
+}
+
+.list-one>.text p {
+    font-size: 13px;
+}
+
+.icon-01 {
+	background: url("../images/taobao-ico.png") 0px 0 no-repeat;
+	margin: 11px auto; 
+}
+.icon-02 {
+	background: url('../images/taobao-ico.png') 0px -48px no-repeat;
+	margin: 11px auto; 
+}
+.icon-03 {
+	background: url('../images/taobao-ico.png') 0 -88px no-repeat;
+	margin: 11px auto; 
+}
+.icon-04 {
+	background: url('../images/taobao-ico.png') 0 -131px no-repeat;
+	margin: 11px auto; 
+}
+.icon-05 {
+	background: url('../images/taobao-ico.png') 0 -174px no-repeat;
+	margin: 11px auto; 
+}
+.icon-06 {
+	background: url('../images/taobao-ico.png') 0 -220px no-repeat;
+	margin: 11px auto; 
+}
+.icon-07 {
+	background: url('../images/taobao-ico.png') 0 -264px no-repeat;
+	margin: 11px auto; 
+}
+.icon-08 {
+	background: url('../images/taobao-ico.png') 0 -306px no-repeat;
+	margin: 11px auto; 
+}
+.icon-09 {
+	background: url('../images/taobao-ico.png') 0 -351px no-repeat;
+	margin: 11px auto; 
+}
+.icon-10 {
+	background: url('../images/taobao-ico.png') 0 -396px no-repeat;
+	margin: 11px auto; 
+}
+.icon-11 {
+	background: url('../images/taobao-ico.png') 0 -440px no-repeat;
+	margin: 11px auto; 
+}
+.icon-12 {
+	background: url('../images/taobao-ico.png') 0 -483px no-repeat;
+	margin: 11px auto; 
+}
+
+.banner-right05 {
+	height: 110px;
+	margin-top: 1px;
+	position: relative;
+}
+
+.banner-right05 h3 {
+	float: left; 
+	height: 28px;
+	display:block; 
+	font-size: 13PX;
+	padding-top: 0PX;
+	margin-left: 8PX;
+	/*color: #696969;*/
+}
+
+.banner-right05 a {
+   padding-top: -2PX;
+   float: right;
+   height: 28px;
+   display:block;
+   font-size: 13PX; 
+   color: #3c3c3c;
+}
+
+.app-nav {
+   height:90px;
+   list-style:none;
+   display: block;
+   float: right;
+}
+
+.app-nav .nav {
+   width: 49px;
+   height: 40px;
+   float: left;
+   padding-left: 6px;
+}
+
+.app-nav .nav-first {
+   padding-left: 0px;
+}
+
+.app-nav img {
+	width: 32px;
+	height: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
